@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "\"Introduction to NodeJS\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alokrai75/NODEJS.git"
+  },
+  "keywords": [
+    "Introduction",
+    "NodeJS",
+    "csvtojson"
+  ],
+  "author": "Alok Rai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alokrai75/NODEJS/issues"
+  },
+  "homepage": "https://github.com/alokrai75/NODEJS#readme",
+  "dependencies": {
+    "csvtojson": "2.0.8"
+  }
+}
