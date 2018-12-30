@@ -26,7 +26,7 @@ const transformer = (csvDataFile, jsonFileName) => {
 
    console.log('Writing JSON Data to: ',jsonFileName);
     dataTransformer.then( (jsonData)=>{
-       fs.writeFileSync(jsonFileName, JSON.stringify(jsonData));
+       fs.writeFileSync(jsonFileName, JSON.stringify(jsonData, null, 2));
     })
 
    dataTransformer.on('data', (data)=>{
